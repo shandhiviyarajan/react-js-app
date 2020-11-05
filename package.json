@@ -1,0 +1,68 @@
+{
+  "name": "shards-dashboard-lite-react",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "camelize": "^1.0.0",
+    "chart.js": "^2.7.3",
+    "classnames": "^2.2.6",
+    "cross-env": "^5.2.0",
+    "dateformat": "^3.0.3",
+    "flux": "^3.1.3",
+    "immutability-helper": "^3.0.0",
+    "jwt-decode": "^2.2.0",
+    "lodash.find": "^4.6.0",
+    "muicss": "^0.9.41",
+    "react": "^16.6.3",
+    "react-awesome-modal": "^2.0.5",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap-modal": "^4.2.0",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.6.3",
+    "react-filter-search": "^1.0.8",
+    "react-filterable-table": "^0.3.434",
+    "react-ga": "^2.5.6",
+    "react-item-select": "^1.0.2",
+    "react-modal-bootstrap": "^1.1.1",
+    "react-multiselect-checkboxes": "^0.1.1",
+    "react-picky": "^4.4.5",
+    "react-quill": "^1.3.3",
+    "react-redux": "^7.0.3",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-row-select-table": "^1.0.16",
+    "react-scripts": "^2.1.1",
+    "react-table-select": "^0.2.7",
+    "reakit": "^1.0.0-beta.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.87.1",
+    "shards-react": "^1.0.0",
+    "shortid": "^2.2.14",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "cypress": "cypress open",
+    "start": "react-scripts start",
+    "dev": "REACT_APP_STAGE=dev react-scripts build",
+    "qa": "REACT_APP_STAGE=qa react-scripts build",
+    "stage": "REACT_APP_STAGE=stage react-scripts build",
+    "prod": "REACT_APP_STAGE=prod react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
